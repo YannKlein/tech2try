@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tech2Try</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/logo-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo-144x144.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable='0' ">
+    <script src="js/fb_sdk.js"></script>
+    <script src="js/fb_login.js"></script>
+    <script src="js/map.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63393161-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNBanUJlJ6yIbedKNbeV78TRM2wVZpYXg&callback=initMap">
+    </script>
+  </head>
+  <body>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+  	<div class="main">
+		<header>
+		  <div id="header-background">
+			<div id="mobile-landscape">
+                        </div>
+                        <div id="header-wrapper">
+                            <div id="header-navtab">
+                                    <a href="#concept-wrapper">Start</a>
+                                    <a href="#net-wrapper">Tech@Web</a>
+                                    <a href="#map-wrapper">Tech@RL</a>
+                                    <a href="#contact-wrapper">Yann who?</a>
+                                    <a id="header-navtab-lang" href="jp/index.html"><img src="img/jpFlag.png" alt=""></a>
+                            </div>
+                            <h1>Tech2Try</h1>
+                        </div>
+			<div id=header-title></div>
+                        <h3>A space to <span id="blue">meet tech's & makers</span> and <span id="orange">try cool devices</span> around you</h3>
+                        <div id="try">
+                            <span class="fb-like" data-href="https://www.facebook.com/Tech2Try/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false">
+                            </span>
+                            <span>to join us</span>    
+                        </div>
+		  </div>
+		</header>
+		<div class="concept-wrapper" id="concept-wrapper">
+		  <h2>Let's go find your Tech 2 try</h2>
+		  <a href="#map-wrapper">
+		  <div class="content-box" id="concept-box-2">
+			  <h3>In real life?</h3>
+			  <img src="img/realLife.png" alt="">
+		  </div>
+                  </a>
+		  <a href="#net-wrapper">
+		  <div class="content-box" id="concept-box-1">
+			  <h3>On the internet?</h3>
+			  <img src="img/internet.png" alt="">
+		  </div>
+                  </a>
+                  <a href="#contact-wrapper">
+                  <div class="content-box" id="concept-box-2">
+			  <h3>By chatting Yann?</h3>
+			  <img src="img/yann.png" alt="">
+		  </div>
+                  </a>
+		</div>
+		<div class="map-wrapper" id="map-wrapper">
+		  <h2>Find your <span id="device">Tech</span> in Tokyo</h2>
+                  <div id="map"></div>
+		</div>
+		<div class="net-wrapper" id="net-wrapper">
+		  <h2>Get fresh news from our <span id="device">feeds</span></h2>
+                  <div class="fb-page" data-href="https://www.facebook.com/Tech2Try" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                      <blockquote cite="https://www.facebook.com/Tech2Try" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/Tech2Try">Tech2Try</a>
+                      </blockquote>
+                  </div>
+                </div>
+		<div class="contact-wrapper" id="contact-wrapper">
+		  <h2>Who's Yann anyway?</h2>
+                  <p>Yann is the happy founder of tech2try and might be 3d printing or crafting some stuffs as we talk.</p>
+		  <div class="contact-area">
+			<a href="https://www.facebook.com/Tech2Try" target="_blank"><img src="img/facebookIcon.png" alt=""></a>
+			<h3>Like him</h3>
+		  </div>
+		  <div class="contact-area">
+			<a href="https://www.instagram.com/yanou_au_japon/" target="_blank"><img src="img/insta.png" alt=""></a>
+			<h3>Stalk him</h3>
+		  </div>
+		  <div class="contact-area">
+			<a href="http://www.tech2try.com" target="_blank"><img src="img/lineYann.png" alt=""></a>
+			<h3>Line him</h3>
+		  </div>
+		</div>
+    <footer>
+	© Copyright Tech2Try 2017</br>
+        Great thank you to The Noun Project for all the icons (with some edits of mine) on this website
+	</footer>
+    </div>
+  </body>
+</html>
+

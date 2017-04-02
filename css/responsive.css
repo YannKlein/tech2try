@@ -1,0 +1,386 @@
+
+
+/*******************TABLET************/
+
+@media screen and (max-width: 1020px) {
+  
+	h1 {
+		font-size: 80px;
+	}
+	
+        header h3{
+        	top: 60%;
+                font-size: 17px;
+        }
+        
+        header #try{
+        	font-size: 20px;
+                left: 45%;
+        }
+
+	h2 {
+		font-size: 50px;
+		width: 100vw;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	h2:lang(ja)  {
+  		font-size: 4.5vw;
+  		line-height: 10px;
+	}
+	
+	#header-navtab a{
+	  margin: 5px;
+	  font-weight: 300;
+	  font-size: 15px;
+	  line-height: 20px;
+	}
+	
+	#header-navtab img{
+		-webkit-transform: scale(0.7,0.7) translate(0%,10%);
+		transform: scale(0.7,0.7) translate(0%,10%);
+	}
+	
+	
+	
+	#concept-box-1 {
+		margin: 0;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		    -webkit-animation-name: slideshow1; /* Chrome, Safari, Opera */
+		    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+			-webkit-animation-iteration-count: infinite;
+		    animation-name: example;
+		    animation-duration: 12s;
+			animation-iteration-count: infinite;
+			
+	}
+	
+	#concept-box-2 {
+		opacity: 0;
+		margin: 0;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+	    -webkit-animation-name: slideshow2; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+		-webkit-animation-iteration-count: infinite;
+	    animation-name: example;
+	    animation-duration: 12s;
+		animation-iteration-count: infinite;
+			
+	}
+	
+	#concept-box-3 {
+		opacity: 0;
+		margin: 0;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+	    -webkit-animation-name: slideshow3; /* Chrome, Safari, Opera */
+	    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+		-webkit-animation-iteration-count: infinite;
+	    animation-name: example;
+	    animation-duration: 12s;
+		animation-iteration-count: infinite;
+			
+	}
+	
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes slideshow1 {
+	    0% {opacity: 0;}
+	    10% {opacity: 1;}
+		30% {opacity: 1;}
+	    33% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+
+	/* Standard syntax */
+	@keyframes slideshow1 {
+	    0% {opacity: 0;}
+	    10% {opacity: 1;}
+		30% {opacity: 1;}
+	    33% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+	
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes slideshow2 {
+	    0% {opacity: 0;}
+		33% {opacity: 0;}
+	    43% {opacity: 1;}
+		63% {opacity: 1;}
+		66% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+
+	/* Standard syntax */
+	@keyframes slideshow2 {
+	    0% {opacity: 0;}
+		33% {opacity: 0;}
+	    43% {opacity: 1;}
+		63% {opacity: 1;}
+		66% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+	
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes slideshow3 {
+	    0% {opacity: 0;}
+		66% {opacity: 0;}
+		76% {opacity: 1;}
+		97% {opacity: 1;}
+		100% {opacity: 0;}
+	}
+
+	/* Standard syntax */
+	@keyframes slideshow3 {
+	    0% {opacity: 0;}
+		66% {opacity: 0;}
+		76% {opacity: 1;}
+		97% {opacity: 1;}
+		100% {opacity: 0;}
+	} 
+}
+
+/*******************MOBILE****************/
+
+@media screen and (max-width: 519px) {
+  
+	h1 {
+		font-size: 80px;
+		top: 36%;
+        }
+        
+        header #header-navtab {
+                visibility: hidden;
+        }
+        
+        header #header-navtab-lang {
+            visibility: visible;
+        }
+        
+        header h3{
+                top: 49%;
+        	font-size: 13px;
+        }
+        
+        header h3:lang(ja){
+                top: 49%;
+        	font-size: 11px;
+        }
+	
+        header #try{
+                top: 75%;
+                left: 35%;
+        }
+        
+        header #try:lang(ja){
+                font-size: 20px;
+                top: 75%;
+                left: 30%;
+        }
+        
+        header #try:lang(ja) span{
+                font-size: 20px;
+        }
+        
+	h2 {
+		line-height: 0px;
+		font-size: 35px;
+		margin-bottom: 50px;
+	}	
+
+	h2:lang(ja) {
+		font-size: 8vw;
+		line-height: 25px;
+		padding-top:45px;
+		margin-bottom: 0px;
+	}
+        
+        #orange_highlight {
+            font-size: 30px;
+        }
+	
+	#header-navtab a{
+	  font-size: 13px;
+	}
+	
+	#header-navtab a:lang(ja){
+	  margin: 2.7px;
+	  font-size: 12px;
+	}
+        
+        .concept-wrapper {
+            height:0px;
+            visibility: hidden;
+        }
+	
+        .net-wrapper h2{
+            font-size: 26px;
+            }
+        
+	.contact-wrapper {
+		height: 110vh;
+		width: 100vw;
+	}
+	
+	.contact-wrapper h2 {
+		margin: 0 0 40px 0;
+	}
+        
+        .contact-wrapper p {
+		font-size: 16px;
+	}
+	
+	.contact-area {
+		display: block;
+		margin-top: 30px;
+                margin-bottom: -60px;
+	}
+    
+	.contact-area a {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.contact-area a img {
+		-webkit-transform: scale(0.5,0.5) translate(-100%,-100%);
+		transform: scale(0.5,0.5) translate(-100%,-100%);
+	}
+	
+	.contact-area h3 {
+		display: block;
+		font-size: 20px;
+		margin: -10px 0 70px 0;
+	}
+	
+}
+  
+/*******************MOBILE LANDSCAPE**********/
+
+@media screen and (max-height: 420px) {
+
+    #header-navtab{
+        visibility: hidden;
+    }
+    
+    #header-navtab-lang {
+        visibility: visible;
+    }
+    
+    header h3 {
+        top: 65%;
+    }
+    
+    h3:lang(ja) {
+        font-size: 16px;
+    }
+    
+    header #try {
+        left: 40%;
+    }
+    
+    header #try:lang(ja) {
+        left: 36%;
+    }
+    
+    .concept-wrapper {
+        display: none;
+    }
+    
+    h2 {
+        padding: 0px;
+        font-size: 30px
+    }
+    
+    .contact-area {
+        margin: 0px 30px;
+    }
+    
+    .contact-wrapper {
+        height: 100vh;
+    }
+    
+    .contact-wrapper p {
+        font-size: 15px;
+        margin: 2em 0;
+    }
+    
+    .map-wrapper {
+        height: 100vh;
+    }
+    
+    #map {
+        height: 100%;
+    }
+}
+/*HEADER*/  
+/*#max-head {
+  height: 60px;
+  width: 60px;
+  background:url(../img/max.jpg) no-repeat center center;
+  background-size:contain;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  display:inline;
+  border-radius: 10px;
+}*/
+ 
+/*MAIN*/  
+/*.main-wrapper {
+  width: 810px;
+}
+.content-wrapper {
+  width: 230px;
+  height: 400px;
+  position:relative;
+  margin: 50px 20px;
+  float:left;
+}
+
+h2 {
+  text-align:center;
+  left: 0;
+  right: 0;
+}
+
+.main-wrapper img {
+  top: 54px;
+  left: 0;
+  right: 0;
+}
+
+.main-wrapper p {
+  top: 244px;
+  left: 0;
+  right: 0;
+}
+
+#ux-text-long {display:none;} #ux-text-short {display:inline;}*/
+ 
+/*CTA AND FOOTER*/  
+/*.cta-wrapper {
+  clear: both;
+}*/
+  
+/*FIX FOR NO MAIL APP*/  
+/*.cta-wrapper a:hover {width: 330px;}
+footer a:hover {width: 100px;}
+
+.cta-wrapper a:hover .cta-button-text, footer a:hover .mail-link-text {display:none;}
+.cta-wrapper a:hover .cta-button-address, footer a:hover .mail-link-address {display:inline;}
+
+}*/
